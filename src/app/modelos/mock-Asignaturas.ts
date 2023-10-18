@@ -1,3 +1,4 @@
+//datos asignaturas
 import { IAsignaturas } from "./i-asignaturas";
 
 export const LISTADOASIG: IAsignaturas[]= [

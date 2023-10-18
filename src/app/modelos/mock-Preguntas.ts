@@ -1,3 +1,4 @@
+//datos preguntas
 import { IPreguntas } from "./i-preguntas";
 
 export const LISTADOPREG: IPreguntas[]= [
