@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IPreguntas } from './modelos/i-preguntas';
+
 
 @Component({
   selector: 'app-root',

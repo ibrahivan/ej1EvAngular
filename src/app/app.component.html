@@ -1,1 +1,29 @@
-<app-principal></app-principal>
+
+<div class="container" style="margin-top: 20px;">
+  <!-- Cabecera -->
+  <div class="row ">
+    <div class="col border border-primary border-2 text-center" style="padding: 7px;">
+      <app-header></app-header><br>
+      <!-- Botones -->
+      <div class="row">
+        <div class="col">
+          <a  class="cta" routerLink="/asignaturas">
+            <span>Asignaturas</span>
+            <svg width="13px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </a>
+          <a  class="cta" routerLink="/preguntas">
+            <span>Preguntas</span>
+            <svg width="13px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div><br>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>
